@@ -1,526 +1,885 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/libs/swiper-bundle.min.css">
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-    />
     <link rel="stylesheet" href="style.css">
-    <title>Flowers</title>
+    <title>Title</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header ">
             <div class="container">
                 <div class="header__body">
                     <div class="header__title">
                         <a href="#">
-                            <img src="assets/imgs/title.svg" alt="">
+                            <img src="assets/imgs/new-title.gif" alt="">
                         </a>
                     </div>
-                    <nav class="header__nav">
+                    <nav data-da=".mobile-menu, 920, 1" class="header__nav">
                         <ul>
                             <li>
-                                <a href="#">
-                                    главная
-                                </a>
+                                <a href="#">Как мы делаем меблировку</a>
                             </li>
                             <li>
                                 <a href="#">
-                                    каталог
+                                    Примущества
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    о нас
-                                </a>
+                                <a href="#">О нас</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    доставка/оплата
-                                </a>
+                                <a href="#">Отзывы</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    контакты
-                                </a>
+                                <a href="#">Контакты</a>
                             </li>
                         </ul>
                     </nav>
-                    <div class="header__social">
-                        <a href="tel:+79271112233">
-                            +7 927 111 22 33
-                        </a>
-                        <a href="#">
-                            <img src="assets/imgs/icons/whats.svg" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="assets/imgs/icons/viber.svg" alt="">
-                        </a>
+                    <div class="header__action">
+                        <button data-da=".mobile-menu, 920, 2" data-popup=".popup1" class="trans-btn call-popup">Бесплатная консультация</button>
                     </div>
-                    <div class="header__search">
-                        <button class="btn-search"><img src="assets/imgs/icons/search.svg" alt=""></button>
+                    <div class="header__mobile-btn">
+                        <button class="burger-btn">
+
+                        </button>
                     </div>
-                    <div class="header__cart">
-                        <a href="#">
-                            <img src="assets/imgs/icons/cart.svg" alt="">
-                            <span class="cart-count ">0</span>
-                        </a>
+                    <div class="mobile-menu">
+
                     </div>
-                    <div class="header__burger-btn">
-                        <button class="burger-btn"><span></span></button>
-                    </div>
-                </div>
-            </div>
-            <div class="mobile-menu">
-                <a href="#">
-                    <img src="assets/imgs/icons/cart.svg" alt="">
-                    <span class="cart-count ">0</span>
-                </a>
-                <form class="mobile-search">
-                    <input type="search">
-                    <button class=""><img src="assets/imgs/icons/search.svg" alt=""></button>
-                </form>
-                <nav class="mobile-nav">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                главная
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                каталог
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                о нас
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                доставка/оплата
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                контакты
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="mobile__action">
-                    <a href="tel:+79271112233">
-                        +7 927 111 22 33
-                    </a>
-                    <a href="#">
-                        <img src="assets/imgs/icons/whats.svg" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="assets/imgs/icons/viber.svg" alt="">
-                    </a>
                 </div>
             </div>
         </header>
         <main class="main">
             <section class="hero">
                 <div class="container">
-                    <div class="hero__slider swiper">
-                        <div class="hero__list swiper-wrapper">
-                            <article class="hero__slide swiper-slide">
-                                <div class="hero__text">
-                                    <img src="assets/imgs/icons/text.svg" alt="">
-                                    <h1>
-                                        Для <strong>ЦВЕТОВ</strong> повод не нужен
-                                    </h1>
-                                    <button class="main-btn">Каталог</button>
-                                </div>
-                                <div class="hero__img">
-                                    <img src="assets/imgs/hero-flow.png" alt="">
-                                </div>
-                            </article>
-                            <article class="hero__slide swiper-slide">
-                                <div class="hero__text">
-                                    <img src="assets/imgs/icons/text.svg" alt="">
-                                    <h1>
-                                        Для <strong>ЦВЕТОВ</strong> повод не нужен
-                                    </h1>
-                                    <button class="main-btn">Каталог</button>
-                                </div>
-                                <div class="hero__img">
-                                    <img src="assets/imgs/hero-flow.png" alt="">
-                                </div>
-                            </article>
-                            <article class="hero__slide swiper-slide">
-                                <div class="hero__text">
-                                    <img src="assets/imgs/icons/text.svg" alt="">
-                                    <h1>
-                                        Для <strong>ЦВЕТОВ</strong> повод не нужен
-                                    </h1>
-                                    <button class="main-btn">Каталог</button>
-                                </div>
-                                <div class="hero__img">
-                                    <img src="assets/imgs/hero-flow.png" alt="">
-                                </div>
-                            </article>
+                    <div class="hero__wrap">
+                        <div class="hero__col _anim-items _anim-no-hide _left">
+                            <h1>
+                                Эксклюзивая мебель в Перми
+                            </h1>
                         </div>
+                        <div class="hero__col _anim-items _anim-no-hide _right">
+                            <p>
+                                Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время,
+                            </p>
+                            <button class="main-btn">Рассчитать проект<img src="assets/imgs/arrow.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="hero__img _anim-items _anim-no-hide _bottom">
+                        <img src="assets/imgs/hero-img.png" alt="">
                     </div>
                 </div>
             </section>
             <section class="why">
                 <div class="container">
-                    <div class="why__title">
-                        <h3 class="section-title">
-                            ПОЧЕМУ ВЫБИРАЮТ именно НАС?
-                        </h3>
-                        <span class="section-subtitle">
-                            наши приемущества
+                    <div class="why__title _anim-items _anim-no-hide">
+                        <span class="subtitle">
+                            Меблировка
                         </span>
+                         <h2 class="section-title">
+                            Почему меблировка квартиры это удобно, выгодно?
+                         </h2>
                     </div>
-                    <div class="why__body">
-                        <div class="why__item">
-                            <div class="img">
-                                <img src="assets/imgs/w1.png" alt="">
-                            </div>
-                            <div class="item-title">
+                    <div class="why__wrap">
+                        <article class="why__item _anim-items _anim-no-hide _left">
+                            <div class="why__item-text ">
+                                <span>/1</span>
                                 <h4>
-                                    Всегда свежие
-                                    цветы и букеты  
+                                    Удобство
                                 </h4>
                                 <p>
-                                    Мы всегда следим за 
-                                    свежестью наших
-                                    цветов и букетов
+                                    Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньгиГотовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
                                 </p>
                             </div>
+                            <div class="why__item-img">
+                                <img src="assets/imgs/why1.png" alt="">
+                            </div>
+                        </article>
+                        <article class="why__item _anim-items _anim-no-hide _right">
+                            <div class="why__item-text">
+                                <span>/2</span>
+                                <h4>
+                                    Практичность
+                                </h4>
+                                <p>
+                                    Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньгиГотовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
+                                </p>
+                            </div>
+                            <div class="why__item-img">
+                                <img src="assets/imgs/why2.png" alt="">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="can">
+                <div class="container">
+                    <div class="can__title">
+                        <span class="subtitle">навыки</span>
+                        <h2 class="section-title _anim-items _anim-no-hide _left">
+                            что мы можем сделать?
+                        </h2>
+                        <p class="section-info _anim-items _anim-no-hide _right">
+                            Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
+                        </p>
+                    </div>
+                    <div class="can__wrap">
+                        <div class="can__item _anim-items _anim-no-hide">
+                            <img src="assets/imgs/a1.png" alt="">
+                            <span>Спальня</span>
                         </div>
-                        <div class="why__item">
-                            <div class="img">
-                                <img src="assets/imgs/w2.png" alt="">
-                            </div>
-                            <div class="item-title">
-                                <h4>
-                                    Удобные способы
-                                    оплаты
-                                </h4>
-                                <p>
-                                    Вы можете оплатить заказ
-                                    любым удобным для Вас
-                                    способом
-                                </p>
-                            </div>
+                        <div class="can__item _anim-items _anim-no-hide">
+                            <img src="assets/imgs/a2.png" alt="">
+                            <span>Кухня</span>
                         </div>
-                        <div class="why__item">
-                            <div class="img">
-                                <img src="assets/imgs/w3.png" alt="">
-                            </div>
-                            <div class="item-title">
-                                <h4>
-                                    Большой выбор
-                                </h4>
-                                <p>
-                                    Огромный выбор цветов и
-                                    букетов на любой вкус и
-                                    кошелек
-                                </p>
-                            </div>
+                        <div class="can__item _anim-items _anim-no-hide">
+                            <img src="assets/imgs/a3.png" alt="">
+                            <span>Детская</span>
                         </div>
-                        <div class="why__item">
-                            <div class="img">
-                                <img src="assets/imgs/w4.png" alt="">
-                            </div>
-                            <div class="item-title">
-                                <h4>
-                                    Быстрая доставка
-                                </h4>
-                                <p>
-                                    Доставка цветов и букетов по
-                                    городу Самара в тчении
-                                    2-х часов
-                                </p>
-                            </div>
+                        <div class="can__item _anim-items _anim-no-hide">
+                            <img src="assets/imgs/a4.png" alt="">
+                            <span>Гостиная</span>
+                        </div>
+                        <div class="can__item _anim-items _anim-no-hide">
+                            <img src="assets/imgs/a5.png" alt="">
+                            <span>Гардеробные</span>
+                        </div>
+                        <div class="can__item _anim-items _anim-no-hide">
+                            <img src="assets/imgs/a4.png" alt="">
+                            <span>Гардеробные</span>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="catalog">
+            <div class="refer">
                 <div class="container">
-                    <div class="catalog__title">
-                        <h3 class="section-title">
-                            Каталог цветов
-                        </h3>
-                        <span class="section-subtitle">
-                            Новое и лучшее
-                        </span>
+                    <div class="can__title">
+                        <span class="subtitle">каталог</span>
+                        <h2 class="section-title _anim-items _anim-no-hide _left">
+                            Наши работы
+                        </h2>
+                        <p class="section-info _anim-items _anim-no-hide _right">
+                            Ежедневно на рынке появляются новые мебельные компании, но клиенты все равно выбирают нас уже на протяжении более чем 10 лет
+                        </p>
                     </div>
-                    <nav class="catalog__nav">
-                        <ul>
-                            <li>
-                                <a href="#" class="active">
-                                    Новинки
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" >
-                                    Букеты со скидкой
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" >
-                                    Популярное
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="catalog__body">
-                        <a href="#" class="catalog__item">
-                            <span>Новинка</span>
-                            <div class="block">
-                                <div class="img">
-                                    <img src="assets/imgs/i1.png" alt="">
-                                </div>
-                                <p>
-                                    Осеннее Настроение
-                                </p>
-                                <span>
-                                    2800 ₽
-                                </span>
+                    <div class="refer__body">
+                        <div class="refer__change">
+                            <div class="refer__list">
+                                <button class="refer-btn active">
+                                    Спальня
+                                </button>
+                                <button class="refer-btn">
+                                    Кухня
+                                </button>
+                                <button class="refer-btn">
+                                    Детская
+                                </button>
+                                <button class="refer-btn">
+                                    Детская мебель
+                                </button>
+                                <button class="refer-btn">
+                                    Гостиная
+                                </button>
+                                <button class="refer-btn">
+                                    Гардеробные
+                                </button>
+                                <button class="refer-btn">
+                                    Ванная комната
+                                </button>
                             </div>
-                            <div class="item-action">
-                                <button class="main-btn">Добавить в корзину</button>
+                            <div class="refer__navigation">
+                                <button>
+                                    <img src="assets/imgs/arrow.svg" alt="">
+                                </button>
+                                <button>
+                                    <img src="assets/imgs/arrow.svg" alt="">
+                                </button>
                             </div>
-                        </a>
-                        <a href="#" class="catalog__item">
-                            <div class="block">
-                                <div class="img">
-                                    <img src="assets/imgs/i1.png" alt="">
-                                </div>
-                                <p>
-                                    Осеннее Настроение
-                                </p>
-                                <span>
-                                    2800 ₽
-                                </span>
-                            </div>
-                            <div class="item-action">
-                                <button class="main-btn">Добавить в корзину</button>
-                            </div>
-                        </a>
-                        <a href="#" class="catalog__item">
-                            <div class="block">
-                                <div class="img">
-                                    <img src="assets/imgs/i1.png" alt="">
-                                </div>
-                                <p>
-                                    Осеннее Настроение
-                                </p>
-                                <span>
-                                    2800 ₽
-                                </span>
-                            </div>
-                            <div class="item-action">
-                                <button class="main-btn">Добавить в корзину</button>
-                            </div>
-                        </a>
-                        <a href="#" class="catalog__item">
-                            <div class="block">
-                                <div class="img">
-                                    <img src="assets/imgs/i1.png" alt="">
-                                </div>
-                                <p>
-                                    Осеннее Настроение
-                                </p>
-                                <span>
-                                    2800 ₽
-                                </span>
-                            </div>
-                            <div class="item-action">
-                                <button class="main-btn">Добавить в корзину</button>
-                            </div>
-                        </a>
-                        <a href="#" class="catalog__item">
-                            <div class="block">
-                                <div class="img">
-                                    <img src="assets/imgs/i1.png" alt="">
-                                </div>
-                                <p>
-                                    Осеннее Настроение
-                                </p>
-                                <span>
-                                    2800 ₽
-                                </span>
-                            </div>
-                            <div class="item-action">
-                                <button class="main-btn">Добавить в корзину</button>
-                            </div>
-                        </a>
-                        <a href="#" class="catalog__item">
-                            <div class="block">
-                                <div class="img">
-                                    <img src="assets/imgs/i1.png" alt="">
-                                </div>
-                                <p>
-                                    Осеннее Настроение
-                                </p>
-                                <span>
-                                    2800 ₽
-                                </span>
-                            </div>
-                            <div class="item-action">
-                                <button class="main-btn">Добавить в корзину</button>
-                            </div>
-                        </a>
-                        <a href="#" class="catalog__item">
-                            <div class="block">
-                                <div class="img">
-                                    <img src="assets/imgs/i1.png" alt="">
-                                </div>
-                                <p>
-                                    Осеннее Настроение
-                                </p>
-                                <span>
-                                    2800 ₽
-                                </span>
-                            </div>
-                            <div class="item-action">
-                                <button class="main-btn">Добавить в корзину</button>
-                            </div>
-                        </a>
-                        <a href="#" class="catalog__item">
-                            <div class="block">
-                                <div class="img">
-                                    <img src="assets/imgs/i1.png" alt="">
-                                </div>
-                                <p>
-                                    Осеннее Настроение
-                                </p>
-                                <span>
-                                    2800 ₽
-                                </span>
-                            </div>
-                            <div class="item-action">
-                                <button class="main-btn">Добавить в корзину</button>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="catalog__all-item">
-                        <a class="main-btn" href="#">ВЕСЬ КАТАЛОГ</a>
-                    </div>
-                </div>
-            </section>
-            <section class="about">
-                <div class="for-4k">
-                    <img src="assets/imgs/aboutback.png" alt="">
-                </div>
-                <div class="container">
-                    <div class="about__body">
-                        <div class="about__img">
-                            <img src="assets/imgs/aboutimg.png" alt="">
                         </div>
-                        <div class="about__text">
-                            <h2>
-                                Заголовок текста о нас
-                            </h2>
-                            <h3>
-                                Причины заказать букет именно у нас
-                            </h3>
+                        <div class="refer__slider swiper active">
+                            <div class="refer__slider-list swiper-wrapper">
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="refer__slider swiper">
+                            <div class="refer__slider-list swiper-wrapper">
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="refer__slider swiper">
+                            <div class="refer__slider-list swiper-wrapper">
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="refer__slider swiper">
+                            <div class="refer__slider-list swiper-wrapper">
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="refer__slider swiper">
+                            <div class="refer__slider-list swiper-wrapper">
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="refer__slider swiper">
+                            <div class="refer__slider-list swiper-wrapper">
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="refer__slider swiper">
+                            <div class="refer__slider-list swiper-wrapper">
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                                <div class="refer__slider-slide swiper-slide">
+                                    <img src="assets/imgs/primer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="reson">
+                <div class="container">
+                    <div class="can__title">
+                        <span class="subtitle">преимущества</span>
+                        <h2 class="section-title _anim-items _anim-no-hide _left">
+                            Почему работать с нами это круто
+                        </h2>
+                        <p class="section-info _anim-items _anim-no-hide _right">
+                            Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
+                        </p>
+                    </div>
+                    <div class="reson__body _anim-items _anim-no-hide _bottom">
+                        <div class="reson__item">
+                            <span>01</span>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus
+                                Мы оказываем полный комплекс услуг, а не только покупка и продажа недвижимости
+                            </p>
+                        </div>
+                        <div class="reson__item">
+                            <span>02</span>
+                            <p>
+                                У нас за сделку отвечает не 1 риэлтор, а несколько специалистов, каждый из которых отвечает за свое направление: менеджеры, ипотеченые брокера, юристы
+                            </p>
+                        </div>
+                        <div class="reson__item">
+                            <span>03</span>
+                            <p>
+                                Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам
+                            </p>
+                        </div>
+                        <div class="reson__item">
+                            <span>04</span>
+                            <p>
+                                Уже более 6 лет мы подбираем нашим клиентам самые выгодные предложения
                             </p>
                         </div>
                     </div>
+                    <article class="form _anim-items _anim-no-hide _bottom">
+                        <div class="title">
+                            <h5>
+                                Оставьте заявку прямо сейчас
+                            </h5>
+                            <p>
+                                И наш менеджер перезвонит вам в течение 15 минут
+                            </p>
+                        </div>
+                        <form action="#">
+                            <input placeholder="Ваше имя" type="text">
+                            <input placeholder="Ваш телефон" type="tel">
+                            <button>Отправить</button>
+                            <span class="pp">
+                                Нажимая кнопку ‘Отправить’ вы соглашаетесь с политикой конфиденциальности
+                            </span>
+                        </form>
+                    </article>
                 </div>
             </section>
-            <section class="events">
+            <section class="edge">
                 <div class="container">
-                    <div class="events__title">
-                        <h2 class="section-title">
-                            Цветы на любое событие
-                        </h2>
-                        <span class="section-subtitle">
-                            категории
+                    <div class="why__title">
+                        <span class="subtitle">
+                            Меблировка
                         </span>
+                         <h2 class="section-title _anim-items _anim-no-hide _right">
+                            с чем вы можете столкнуться при обстановке квартиры
+                         </h2>
                     </div>
-                    <div class="events__body">
-                        <a href="#" style="background-image: url(assets/imgs/a1.png);" class="events__item">
-                            <div class="bar">
-                                <span>На День Рождения</span>
-                                <div class="img">
-                                    <img src="assets/imgs/icons/decor.png" alt="">
-                                </div>
+                    <div class="edge__wrap _anim-items _anim-no-hide _bottom">
+                        <article class="edge__item">
+                            <div class="img">
+                                <img src="assets/imgs/e1.png" alt="">
                             </div>
-                        </a>
-                        <a href="#" style="background-image: url(assets/imgs/a2.png);" class="events__item">
-                            <div class="bar">
-                                <span>Букеты в школу</span>
-                                <div class="img">
-                                    <img src="assets/imgs/icons/decor.png" alt="">
-                                </div>
+                            <div class="text">
+                                <h4>
+                                    Преимущество 1
+                                </h4>
+                                <p>
+                                    Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
+                                </p>
                             </div>
-                        </a>
-                        <a href="#" style="background-image: url(assets/imgs/a3.png);" class="events__item">
-                            <div class="bar">
-                                <span>Свадебная флористика</span>
-                                <div class="img">
-                                    <img src="assets/imgs/icons/decor.png" alt="">
-                                </div>
+                        </article>
+                        <article class="edge__item">
+                            <div class="img">
+                                <img src="assets/imgs/e2.png" alt="">
                             </div>
-                        </a>
-                        <a href="#" style="background-image: url(assets/imgs/a4.png);" class="events__item">
-                            <div class="bar">
-                                <span>На День Рождения</span>
-                                <div class="img">
-                                    <img src="assets/imgs/icons/decor.png" alt="">
-                                </div>
+                            <div class="text">
+                                <h4>
+                                    Преимущество 2
+                                </h4>
+                                <p>
+                                    Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
+                                </p>
                             </div>
-                        </a>
-                        <a href="#" style="background-image: url(assets/imgs/a4.png);" class="events__item">
-                            <div class="bar">
-                                <span>На День Рождения</span>
-                                <div class="img">
-                                    <img src="assets/imgs/icons/decor.png" alt="">
-                                </div>
+                        </article>
+                        <article class="edge__item">
+                            <div class="img">
+                                <img src="assets/imgs/e3.png" alt="">
                             </div>
-                        </a>
-                        <a href="#" style="background-image: url(assets/imgs/a3.png);" class="events__item">
-                            <div class="bar">
-                                <span>На День Рождения</span>
-                                <div class="img">
-                                    <img src="assets/imgs/icons/decor.png" alt="">
-                                </div>
+                            <div class="text">
+                                <h4>
+                                    Преимущество 3
+                                </h4>
+                                <p>
+                                    Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
+                                </p>
                             </div>
-                        </a>
+                        </article>
                     </div>
                 </div>
             </section>
-            <section class="gallery">
+            <section class="work">
                 <div class="container">
-                    <div class="gallery__title">
+                    <div class="can__title">
+                        <span class="subtitle">преимущества</span>
+                        <h2 class="section-title _anim-items _anim-no-hide _left">
+                            А как работаем мы
+                        </h2>
+                        <p class="section-info _anim-items _anim-no-hide _right">
+                            Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
+                        </p>
+                    </div>
+                </div>
+                <div class="work__slider swiper _anim-items _anim-no-hide _bottom">
+                    <div class="work__slider-wrapper  swiper-wrapper">
+                        <article class="work__slide swiper-slide">
+                            <span>/01</span>
+                            <h6>
+                                Мы оказываем полный комплекс услуг, а не только покупка 
+                            </h6>
+                            <div class="img">
+                                <img src="assets/imgs/w1.png" alt="">
+                            </div>
+                        </article>
+                        <article class="work__slide swiper-slide">
+                            <span>/02</span>
+                            <h6>
+                                У нас за сделку отвечает не 1 риэлтор, а несколько специалистов
+                            </h6>
+                            <div class="img">
+                                <img src="assets/imgs/w2.png" alt="">
+                            </div>
+                        </article>
+                        <article class="work__slide swiper-slide">
+                            <span>/03</span>
+                            <h6>
+                                Процесс сделки проходит быстрее, чем в других компаниях благодрая 
+                            </h6>
+                            <div class="img">
+                                <img src="assets/imgs/w3.png" alt="">
+                            </div>
+                        </article>
+                        <article class="work__slide swiper-slide">
+                            <span>/04</span>
+                            <h6>
+                                Процесс сделки проходит быстрее, чем в других компаниях благод
+                            </h6>
+                            <div class="img">
+                                <img src="assets/imgs/w4.png" alt="">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <div class="steps">
+                <div class="container">
+                    <div class="steps__body">
+                        <div class="steps__text">
+                            <h3 class="section-title _anim-items _anim-no-hide _left">
+                                этапы работы
+                            </h3>
+                            <div class="steps__item _anim-items _anim-no-hide _bottom">
+                                <span>/01</span>
+                                <h5>
+                                    Заполнение заявки
+                                </h5>
+                                <p>
+                                    Мы оказываем полный комплекс услуг, а не только покупка и продажа недвижимости
+                                </p>
+                            </div>
+                            <div class="steps__item _anim-items _anim-no-hide _bottom">
+                                <span>/02</span>
+                                <h5>
+                                    Заполнение заявки
+                                </h5>
+                                <p>
+                                    Мы оказываем полный комплекс услуг, а не только покупка и продажа недвижимости
+                                </p>
+                            </div>
+                            <div class="steps__item _anim-items _anim-no-hide _bottom">
+                                <span>/03</span>
+                                <h5>
+                                    Заполнение заявки
+                                </h5>
+                                <p>
+                                    Мы оказываем полный комплекс услуг, а не только покупка и продажа недвижимости
+                                </p>
+                            </div>
+                            <div class="steps__item _anim-items _anim-no-hide _bottom">
+                                <span>/03</span>
+                                <h5>
+                                    Заполнение заявки
+                                </h5>
+                                <p>
+                                    Мы оказываем полный комплекс услуг, а не только покупка и продажа недвижимости
+                                </p>
+                            </div>
+                            <div class="steps__item _anim-items _anim-no-hide _bottom">
+                                <span>/04</span>
+                                <h5>
+                                    Заполнение заявки
+                                </h5>
+                                <p>
+                                    Мы оказываем полный комплекс услуг, а не только покупка и продажа недвижимости
+                                </p>
+                            </div>
+                            <div class="steps__item _anim-items _anim-no-hide _bottom">
+                                <span>/05</span>
+                                <h5>
+                                    Заполнение заявки
+                                </h5>
+                                <p>
+                                    Мы оказываем полный комплекс услуг, а не только покупка и продажа недвижимости
+                                </p>
+                            </div>
+                        </div>
+                        <div class="steps__img">
+                            <img src="assets/imgs/etaps.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="portfolio">
+                <div class="container">
+                    <div class="can__title">
+                        <span class="subtitle">портфолио</span>
+                        <h2 class="section-title _anim-items _anim-no-hide _left">
+                            Примеры наших проектов
+                        </h2>
+                        <p class="section-info _anim-items _anim-no-hide _right">
+                            Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
+                        </p>
+                    </div>
+                    <div class="portfolio__body">
+                        <article class="portfolio__item _anim-items _anim-no-hide _bottom">
+                            <div class="img">
+                                <img src="assets/imgs/p1.png" alt="">
+                            </div>
+                            <div class="portfolio__info">
+                                <div class="portfolio__col">
+                                    <h3>
+                                        е3-комнатная квартира, 59 м²
+                                    </h3>
+                                    <p>
+                                        Трехкомнатная квартира в г. Энгельс для семьи с тремя детьми одного пола. Основная задача спроектировать пространство без лишних объектов, оставив как можно больше "воздуха". Из-за сложной планировки от застройщика, от коридора уйти не удалось
+                                    </p>
+                                    <div class="details">
+                                        <div class="item">
+                                            <span>Стоимость мебели</span>
+                                            <p>
+                                                540.000 ₽
+                                            </p>
+                                        </div>
+                                        <div class="item">
+                                            <span>Сроки</span>
+                                            <p>
+                                                3 дня
+                                            </p>
+                                        </div>
+                                        <div class="item">
+                                            <span>Стоимость мебели</span>
+                                            <p>
+                                                540.000 ₽
+                                            </p>
+                                        </div>
+                                        <div class="item">
+                                            <span>Сроки</span>
+                                            <p>
+                                                3 дня
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <button class="main-btn">
+                                        хочу также <img src="assets/imgs/arrow.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="portfolio__col">
+                                    <p>
+                                        Трехкомнатная квартира в г. Энгельс для семьи с тремя детьми одного пола. Основная задача спроектировать пространство без лишних объектов, оставив как можно больше "воздуха". Из-за сложной планировки от застройщика, от коридора уйти не удалось
+                                    </p>
+                                    <div class="imgs">
+                                        <div class="img">
+                                            <img src="assets/imgs/p1.png" alt="">
+                                        </div>
+                                        <div class="img">
+                                            <img src="assets/imgs/p1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="portfolio__item _anim-items _anim-no-hide _bottom">
+                            <div class="img">
+                                <img src="assets/imgs/p2.png" alt="">
+                            </div>
+                            <div class="portfolio__info">
+                                <div class="portfolio__col">
+                                    <h3>
+                                        е3-комнатная квартира, 59 м²
+                                    </h3>
+                                    <p>
+                                        Трехкомнатная квартира в г. Энгельс для семьи с тремя детьми одного пола. Основная задача спроектировать пространство без лишних объектов, оставив как можно больше "воздуха". Из-за сложной планировки от застройщика, от коридора уйти не удалось
+                                    </p>
+                                    <div class="details">
+                                        <div class="item">
+                                            <span>Стоимость мебели</span>
+                                            <p>
+                                                540.000 ₽
+                                            </p>
+                                        </div>
+                                        <div class="item">
+                                            <span>Сроки</span>
+                                            <p>
+                                                3 дня
+                                            </p>
+                                        </div>
+                                        <div class="item">
+                                            <span>Стоимость мебели</span>
+                                            <p>
+                                                540.000 ₽
+                                            </p>
+                                        </div>
+                                        <div class="item">
+                                            <span>Сроки</span>
+                                            <p>
+                                                3 дня
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <button class="main-btn">
+                                        хочу также <img src="assets/imgs/arrow.svg" alt="">
+                                    </button>
+                                </div> 
+                                <div class="portfolio__col">
+                                    <p>
+                                        Трехкомнатная квартира в г. Энгельс для семьи с тремя детьми одного пола. Основная задача спроектировать пространство без лишних объектов, оставив как можно больше "воздуха". Из-за сложной планировки от застройщика, от коридора уйти не удалось
+                                    </p>
+                                    <div class="imgs">
+                                        <div class="img">
+                                            <img src="assets/imgs/p2.png" alt="">
+                                        </div>
+                                        <div class="img">
+                                            <img src="assets/imgs/p2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <seciton class="video">
+                <div class="container">
+                    <div class="video__body">
+                        <div data-da=".for-img,920,1" class="video__img _anim-items _anim-no-hide _left">
+                            <img src="assets/imgs/v1.png" alt="">
+                            <a href="#">
+                                <img src="assets/imgs/new-btn.svg" alt="">
+                                <span>Посмотрите видео о нас</span>
+                            </a>
+                        </div>
+                        <div class="video__text _anim-items _anim-no-hide _right">
+                            <div class="video__title">
+                                <span class="subtitle">
+                                    история
+                                </span>
+                                <h2 class="section-title">
+                                    МЫ– БЮРО АРХИТЕКТУРЫ
+                                    И ДИЗАЙНА
+                                </h2>
+                            </div>
+                            <div class="for-img">
+                            </div>
+                            <div class="video__par">
+                                <p>
+                                    Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам 
+                                </p>
+                                <p>
+                                    Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам 
+                                </p>
+                            </div>
+                            <div class="video__edge">
+                                <div class="item">
+                                    <span>20+</span>
+                                    <p>
+                                        лет работы
+                                    </p >
+                                </div>
+                                <div class="item">
+                                    <span>1500</span>
+                                    <p>
+                                        довольных клиентов
+                                    </p >
+                                </div>
+                                <div class="item">
+                                    <span>20+</span>
+                                    <p>
+                                        лет работы
+                                    </p >
+                                </div>
+                                <div class="item">
+                                    <span>2134</span>
+                                    <p>
+                                        Кухни
+                                    </p >
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="video__content">
+                        <h2>БЮРО АРХИТЕКТУРЫ И ДИЗАЙНА</h2>
+                        <button class="close-video"></button>
+
+                        <video controls>
+                            <source src="assets/imgs/output(compress-video-online.com).mp4">
+                        </video>
+                    </div>
+                   
+                </div>
+            </seciton>
+            <section class="clients">
+                <div class="container">
+                    <div class="can__title">
+                        <span class="subtitle">отзывы</span>
+                        <h2 class="section-title _anim-items _anim-no-hide _left">
+                            Что говорят наши клиенты
+                        </h2>
+                        <p class="section-info _anim-items _anim-no-hide _right">
+                            Готовые пакеты мебели, техники и текстиля с доставкой, установкой, монтажом и уборкой. Экономьте свое время, силы и деньги
+                        </p>
+                    </div>
+                    <div class="clients__slider swiper _anim-items _anim-no-hide _bottom">
+                        <div class="clients__slider-wrapper swiper-wrapper">
+                            <article class="clients__slider-slide swiper-slide">
+                                <div class="item-text">
+                                    <span>
+                                        Вячеслав
+                                    </span>
+                                    <span class="phrase">
+                                        «Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам»
+                                    </span>
+                                    <p>
+                                        Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам  Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам  Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам 
+                                    </p>
+                                </div>
+                                <div class="item-img">
+                                    <img src="assets/imgs/p1.png" alt="">
+                                </div>
+                            </article>
+                            <article class="clients__slider-slide swiper-slide">
+                                <div class="item-text">
+                                    <span>
+                                        Вячеслав
+                                    </span>
+                                    <span class="phrase">
+                                        «Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам»
+                                    </span>
+                                    <p>
+                                        Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам  Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам  Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам 
+                                    </p>
+                                </div>
+                                <div class="item-img">
+                                    <img src="assets/imgs/p1.png" alt="">
+                                </div>
+                            </article>
+                            <article class="clients__slider-slide swiper-slide">
+                                <div class="item-text">
+                                    <span>
+                                        Вячеслав
+                                    </span>
+                                    <span class="phrase">
+                                        «Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам»
+                                    </span>
+                                    <p>
+                                        Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам  Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам  Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам Процесс сделки проходит быстрее, чем в других компаниях благодрая отлаженным внутренним процессам 
+                                    </p>
+                                </div>
+                                <div class="item-img">
+                                    <img src="assets/imgs/p1.png" alt="">
+                                </div>
+                            </article>
+                        </div>
+                        <div class="slider-nav">
+                            <button class="btn-prev-slide">
+                                <img src="assets/imgs/arrow.svg" alt="">
+                            </button>
+                            <button  class="btn-next-slide">
+                                <img src="assets/imgs/arrow.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="breaker">
+                <div class="container">
+                    <div class="can__title">
+                        <span class="subtitle">консультация</span>
+                        <h2 class="section-title _anim-items _anim-no-hide _left">
+                            Хотите обсудить проект?
+                        </h2>
+                        <p class="section-info  _anim-items _anim-no-hide _right">
+                            Для этого просто заполните форму и мы свяжемся с вами в ближайшее время
+                        </p>
+                    </div>
+                    <div class="form _anim-items _anim-no-hide _bottom">
+                        <form action="#">
+                            <input placeholder="ВАШЕ ИМЯ" type="text">
+                            <input placeholder="ВАШ ТЕЛЕФОН" type="tel">
+                            <button class="main-btn" type="submit">Отправить</button>
+                            <span>Нажимая кнопку ‘Отправить’ вы соглашаетесь с политикой конфиденциальности</span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <section class="map">
+                <div class="container">
+                    <div class="map__title">
+                        <span class="subtitle">контакты</span>
                         <h5 class="section-title">
-                            галерея наших работ
+                            Где нас найти
                         </h5>
                     </div>
-                    <div class="gallery__slider swiper">
-                        <div class="gallery__list swiper-wrapper">
-                            <a href="assets/imgs/g1.png" data-fancybox="gallery" class="gallery__item swiper-slide">
-                                <img src="assets/imgs/g1.png" alt="">
+                    <div class="map__body _anim-items _anim-no-hide _bottom">
+                        <div class="map__item">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A01d06658ec72c44a66951ad4ebdb3b8f8e0b095b3b3670ed86cf2f4d49761d38&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                        <div class="map__info">
+                            <h3>
+                                Пермь, Пушкарская 138 корп. 1
+                            </h3>
+                            <a href="tel:+79214294821">+7 921 429 48 21</a>
+                        </div>
+                        <div data-da=".for-social, 1200, 1" class="map__social">
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.465 1.066C8.638 1.012 9.012 1 12 1C14.988 1 15.362 1.013 16.534 1.066C17.706 1.119 18.506 1.306 19.206 1.577C19.939 1.854 20.604 2.287 21.154 2.847C21.714 3.396 22.146 4.06 22.422 4.794C22.694 5.494 22.88 6.294 22.934 7.464C22.988 8.639 23 9.013 23 12C23 14.988 22.987 15.362 22.934 16.535C22.881 17.705 22.694 18.505 22.422 19.205C22.146 19.9391 21.7133 20.6042 21.154 21.154C20.604 21.714 19.939 22.146 19.206 22.422C18.506 22.694 17.706 22.88 16.536 22.934C15.362 22.988 14.988 23 12 23C9.012 23 8.638 22.987 7.465 22.934C6.295 22.881 5.495 22.694 4.795 22.422C4.06092 22.146 3.39582 21.7133 2.846 21.154C2.28638 20.6047 1.85331 19.9399 1.577 19.206C1.306 18.506 1.12 17.706 1.066 16.536C1.012 15.361 1 14.987 1 12C1 9.012 1.013 8.638 1.066 7.466C1.119 6.294 1.306 5.494 1.577 4.794C1.85372 4.06008 2.28712 3.39531 2.847 2.846C3.39604 2.2865 4.06047 1.85344 4.794 1.577C5.494 1.306 6.294 1.12 7.464 1.066H7.465ZM16.445 3.046C15.285 2.993 14.937 2.982 12 2.982C9.063 2.982 8.715 2.993 7.555 3.046C6.482 3.095 5.9 3.274 5.512 3.425C4.999 3.625 4.632 3.862 4.247 4.247C3.88205 4.60205 3.60118 5.03428 3.425 5.512C3.274 5.9 3.095 6.482 3.046 7.555C2.993 8.715 2.982 9.063 2.982 12C2.982 14.937 2.993 15.285 3.046 16.445C3.095 17.518 3.274 18.1 3.425 18.488C3.601 18.965 3.882 19.398 4.247 19.753C4.602 20.118 5.035 20.399 5.512 20.575C5.9 20.726 6.482 20.905 7.555 20.954C8.715 21.007 9.062 21.018 12 21.018C14.938 21.018 15.285 21.007 16.445 20.954C17.518 20.905 18.1 20.726 18.488 20.575C19.001 20.375 19.368 20.138 19.753 19.753C20.118 19.398 20.399 18.965 20.575 18.488C20.726 18.1 20.905 17.518 20.954 16.445C21.007 15.285 21.018 14.937 21.018 12C21.018 9.063 21.007 8.715 20.954 7.555C20.905 6.482 20.726 5.9 20.575 5.512C20.375 4.999 20.138 4.632 19.753 4.247C19.3979 3.88207 18.9657 3.60121 18.488 3.425C18.1 3.274 17.518 3.095 16.445 3.046ZM10.595 15.391C11.3797 15.7176 12.2534 15.7617 13.0669 15.5157C13.8805 15.2697 14.5834 14.7489 15.0556 14.0422C15.5278 13.3356 15.7401 12.4869 15.656 11.6411C15.572 10.7953 15.197 10.005 14.595 9.405C14.2112 9.02148 13.7472 8.72781 13.2363 8.54515C12.7255 8.36248 12.1804 8.29536 11.6405 8.34862C11.1006 8.40187 10.5792 8.57418 10.1138 8.85313C9.64846 9.13208 9.25074 9.51074 8.9493 9.96185C8.64786 10.413 8.45019 10.9253 8.37052 11.462C8.29084 11.9986 8.33115 12.5463 8.48854 13.0655C8.64593 13.5847 8.91648 14.0626 9.28072 14.4647C9.64496 14.8668 10.0938 15.1832 10.595 15.391ZM8.002 8.002C8.52702 7.47698 9.15032 7.0605 9.8363 6.77636C10.5223 6.49222 11.2575 6.34597 12 6.34597C12.7425 6.34597 13.4777 6.49222 14.1637 6.77636C14.8497 7.0605 15.473 7.47698 15.998 8.002C16.523 8.52702 16.9395 9.15032 17.2236 9.8363C17.5078 10.5223 17.654 11.2575 17.654 12C17.654 12.7425 17.5078 13.4777 17.2236 14.1637C16.9395 14.8497 16.523 15.473 15.998 15.998C14.9377 17.0583 13.4995 17.654 12 17.654C10.5005 17.654 9.06234 17.0583 8.002 15.998C6.94166 14.9377 6.34597 13.4995 6.34597 12C6.34597 10.5005 6.94166 9.06234 8.002 8.002ZM18.908 7.188C19.0381 7.06527 19.1423 6.91768 19.2143 6.75397C19.2863 6.59027 19.3248 6.41377 19.3274 6.23493C19.33 6.05609 19.2967 5.87855 19.2295 5.71281C19.1622 5.54707 19.0624 5.39651 18.936 5.27004C18.8095 5.14357 18.6589 5.04376 18.4932 4.97652C18.3275 4.90928 18.1499 4.87598 17.9711 4.87858C17.7922 4.88119 17.6157 4.91965 17.452 4.9917C17.2883 5.06374 17.1407 5.1679 17.018 5.298C16.7793 5.55103 16.6486 5.88712 16.6537 6.23493C16.6588 6.58274 16.7992 6.91488 17.0452 7.16084C17.2911 7.40681 17.6233 7.54723 17.9711 7.5523C18.3189 7.55737 18.655 7.42669 18.908 7.188Z" fill="#ADCEC8"/>
+                                </svg>                            
                             </a>
-                            <a href="assets/imgs/g2.png" data-fancybox="gallery" class="gallery__item swiper-slide">
-                                <img src="assets/imgs/g2.png" alt="">
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_428_57)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.45 5.94898C23.616 5.40298 23.45 5.00098 22.655 5.00098H20.03C19.362 5.00098 19.054 5.34798 18.887 5.73098C18.887 5.73098 17.552 8.92698 15.661 11.003C15.049 11.605 14.771 11.796 14.437 11.796C14.27 11.796 14.019 11.605 14.019 11.058V5.94898C14.019 5.29298 13.835 5.00098 13.279 5.00098H9.151C8.734 5.00098 8.483 5.30498 8.483 5.59398C8.483 6.21498 9.429 6.35898 9.526 8.10698V11.905C9.526 12.738 9.373 12.889 9.039 12.889C8.149 12.889 5.984 9.67798 4.699 6.00398C4.45 5.28898 4.198 5.00098 3.527 5.00098H0.9C0.15 5.00098 0 5.34798 0 5.73098C0 6.41298 0.89 9.80098 4.145 14.282C6.315 17.342 9.37 19.001 12.153 19.001C13.822 19.001 14.028 18.633 14.028 17.998V15.685C14.028 14.948 14.186 14.801 14.715 14.801C15.105 14.801 15.772 14.993 17.33 16.468C19.11 18.217 19.403 19.001 20.405 19.001H23.03C23.78 19.001 24.156 18.633 23.94 17.905C23.702 17.181 22.852 16.13 21.725 14.883C21.113 14.173 20.195 13.408 19.916 13.025C19.527 12.534 19.638 12.315 19.916 11.878C19.916 11.878 23.116 7.45198 23.449 5.94898H23.45Z" fill="#ADCEC8"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_428_57">
+                                    <rect width="24" height="24" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                                                
                             </a>
-                            <a href="assets/imgs/g3.png" data-fancybox="gallery" class="gallery__item swiper-slide">
-                                <img src="assets/imgs/g3.png" alt="">
-                            </a>
-                            <a href="assets/imgs/g4.png" data-fancybox="gallery" class="gallery__item swiper-slide">
-                                <img src="assets/imgs/g4.png" alt="">
-                            </a>
-                            <a href="assets/imgs/g5.png" data-fancybox="gallery" class="gallery__item swiper-slide">
-                                <img src="assets/imgs/g5.png" alt="">
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20.6651 3.7178L2.9351 10.5548C1.72509 11.0408 1.73209 11.7158 2.71309 12.0168L7.2651 13.4368L17.7971 6.7918C18.2951 6.4888 18.7501 6.6518 18.3761 6.9838L9.84311 14.6848H9.8411L9.84311 14.6858L9.52911 19.3778C9.98911 19.3778 10.1921 19.1668 10.4501 18.9178L12.6611 16.7678L17.2601 20.1648C18.1081 20.6318 18.7171 20.3918 18.9281 19.3798L21.9471 5.1518C22.2561 3.9128 21.4741 3.3518 20.6651 3.7178Z" fill="#ADCEC8"/>
+                                </svg>                            
                             </a>
                         </div>
                     </div>
@@ -530,114 +889,76 @@
         <footer class="footer">
             <div class="container">
                 <div class="footer__body">
-                    <div class="footer__col">
+                    <div class="footer__title">
                         <a href="#">
-                            <img src="assets/imgs/title.svg" alt="">
+                            <svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.27979 48.1096L48.6096 0.779793C49.6494 -0.259931 51.3506 -0.259931 52.3904 0.779793L99.7202 48.1096C100.76 49.1494 100.76 50.8506 99.7202 51.8904L52.3904 99.2202C51.3506 100.26 49.6494 100.26 48.6096 99.2202L1.27979 51.8904C0.240069 50.8506 0.240069 49.1494 1.27979 48.1096ZM3.40458 46.6191L50.4126 2.78345C51.3997 1.86295 52.9605 1.91746 53.8809 2.90455L97.7166 49.9126C98.6371 50.8997 98.5826 52.4604 97.5955 53.3809L50.5875 97.2166C49.6004 98.137 48.0396 98.0826 47.1191 97.0954L3.28347 50.0874C2.36301 49.1004 2.41749 47.5396 3.40458 46.6191Z" fill="#000"/>
+                                <path d="M34.4572 48.536C34.5027 48.536 34.5254 48.5814 34.5254 48.6723C34.5254 48.7632 34.5027 48.8087 34.4572 48.8087C33.9876 48.8087 33.6164 48.8011 33.3437 48.7859L31.8211 48.7632L30.4122 48.7859C30.1849 48.8011 29.8668 48.8087 29.4577 48.8087C29.4274 48.8087 29.4123 48.7632 29.4123 48.6723C29.4123 48.5814 29.4274 48.536 29.4577 48.536C29.988 48.536 30.3743 48.4981 30.6167 48.4223C30.8742 48.3314 31.0409 48.1799 31.1166 47.9678C31.2075 47.7557 31.2378 47.4224 31.2075 46.9679L30.8212 36.4008L25.5036 48.6496C25.4733 48.7102 25.4127 48.7405 25.3218 48.7405C25.246 48.7405 25.1778 48.7102 25.1172 48.6496L19.5724 36.4917L19.5496 36.4463L19.3678 46.4453C19.3527 47.2331 19.4815 47.7785 19.7542 48.0815C20.0269 48.3845 20.5344 48.536 21.2767 48.536C21.307 48.536 21.3222 48.5814 21.3222 48.6723C21.3222 48.7632 21.307 48.8087 21.2767 48.8087C20.8525 48.8087 20.5268 48.8011 20.2996 48.7859L19.0724 48.7632L17.9589 48.7859C17.7619 48.8011 17.4665 48.8087 17.0726 48.8087C17.0423 48.8087 17.0272 48.7632 17.0272 48.6723C17.0272 48.5814 17.0423 48.536 17.0726 48.536C17.7089 48.536 18.1558 48.3845 18.4134 48.0815C18.6861 47.7633 18.83 47.2179 18.8452 46.4453L19.0724 35.6736C18.6028 35.1434 17.9892 34.8783 17.2317 34.8783C17.2014 34.8783 17.1862 34.8328 17.1862 34.7419C17.1862 34.651 17.2014 34.6056 17.2317 34.6056L18.0043 34.6283C18.1558 34.6434 18.3528 34.651 18.5952 34.651C18.8376 34.651 19.0421 34.6434 19.2088 34.6283C19.3754 34.6131 19.5042 34.6056 19.5951 34.6056C19.8072 34.6056 19.9738 34.6813 20.095 34.8328C20.2162 34.9692 20.398 35.2873 20.6404 35.7873L25.7535 46.8316L30.8439 35.1737C30.9197 35.007 31.0182 34.8707 31.1394 34.7646C31.2757 34.6586 31.4045 34.6056 31.5257 34.6056C31.5863 34.6056 31.6848 34.6131 31.8211 34.6283C31.9575 34.6434 32.1468 34.651 32.3892 34.651L33.4119 34.6283C33.5634 34.6131 33.7982 34.6056 34.1163 34.6056C34.1466 34.6056 34.1618 34.651 34.1618 34.7419C34.1618 34.8328 34.1466 34.8783 34.1163 34.8783C33.3285 34.8783 32.768 34.9843 32.4347 35.1964C32.1165 35.3934 31.965 35.7948 31.9802 36.4008L32.412 46.9679C32.4271 47.4376 32.4801 47.7785 32.571 47.9906C32.6771 48.2027 32.8665 48.3466 33.1392 48.4223C33.427 48.4981 33.8664 48.536 34.4572 48.536ZM49.3893 48.536C49.4499 48.536 49.4802 48.5814 49.4802 48.6723C49.4802 48.7632 49.4499 48.8087 49.3893 48.8087C49.1166 48.8087 48.6772 48.7935 48.0712 48.7632C47.4955 48.7329 47.0713 48.7178 46.7986 48.7178C46.4805 48.7178 46.0639 48.7329 45.5488 48.7632C45.064 48.7935 44.7004 48.8087 44.458 48.8087C44.3974 48.8087 44.3671 48.7632 44.3671 48.6723C44.3671 48.5814 44.3974 48.536 44.458 48.536C45.0791 48.536 45.526 48.4829 45.7987 48.3769C46.0714 48.2557 46.2078 48.0587 46.2078 47.786C46.2078 47.5739 46.1245 47.2785 45.9578 46.8998L43.8217 42.2866H38.4131L36.8678 46.0135C36.6557 46.5286 36.5497 46.9528 36.5497 47.2861C36.5497 47.7254 36.7315 48.0436 37.0951 48.2405C37.4587 48.4375 38.0268 48.536 38.7994 48.536C38.8752 48.536 38.9131 48.5814 38.9131 48.6723C38.9131 48.7632 38.8752 48.8087 38.7994 48.8087C38.5267 48.8087 38.1328 48.7935 37.6177 48.7632C37.0421 48.7329 36.5421 48.7178 36.1179 48.7178C35.7392 48.7178 35.2922 48.7329 34.7771 48.7632C34.3226 48.7935 33.9515 48.8087 33.6636 48.8087C33.5879 48.8087 33.55 48.7632 33.55 48.6723C33.55 48.5814 33.5879 48.536 33.6636 48.536C34.0878 48.536 34.4438 48.4602 34.7317 48.3087C35.0347 48.1572 35.315 47.8845 35.5725 47.4906C35.8452 47.0967 36.1331 46.5362 36.4361 45.809L41.1856 34.3783C41.2159 34.3329 41.2613 34.3101 41.3219 34.3101C41.3977 34.3101 41.4431 34.3329 41.4583 34.3783L46.7305 45.6953C47.0789 46.468 47.3895 47.0588 47.6622 47.4679C47.9349 47.8618 48.2 48.1421 48.4576 48.3087C48.7303 48.4602 49.0408 48.536 49.3893 48.536ZM38.5949 41.8775H43.6171L40.9583 36.1736L38.5949 41.8775ZM58.8029 45.4908C58.8029 45.4454 58.8484 45.4302 58.9393 45.4454C59.0302 45.4454 59.0756 45.4681 59.0756 45.5135C58.9393 46.468 58.8711 47.4527 58.8711 48.4678C58.8711 48.589 58.8408 48.6799 58.7802 48.7405C58.7347 48.7859 58.6438 48.8087 58.5075 48.8087H49.1221C49.0918 48.8087 49.0766 48.7632 49.0766 48.6723C49.0766 48.5814 49.0918 48.536 49.1221 48.536C49.7129 48.536 50.1447 48.4981 50.4174 48.4223C50.7053 48.3466 50.8946 48.2027 50.9855 47.9906C51.0916 47.7633 51.1446 47.4224 51.1446 46.9679V36.4463C51.1446 35.9918 51.0916 35.6585 50.9855 35.4464C50.8946 35.2343 50.7053 35.0904 50.4174 35.0146C50.1447 34.9237 49.7129 34.8783 49.1221 34.8783C49.0918 34.8783 49.0766 34.8328 49.0766 34.7419C49.0766 34.651 49.0918 34.6056 49.1221 34.6056H58.1212C58.2575 34.6056 58.3257 34.6737 58.3257 34.8101L58.3711 37.5598C58.3711 37.6053 58.3257 37.628 58.2348 37.628C58.159 37.628 58.1212 37.6053 58.1212 37.5598C58.1212 36.7872 57.9166 36.1736 57.5076 35.7191C57.0985 35.2646 56.5607 35.0373 55.8941 35.0373H54.3261C53.7504 35.0373 53.3262 35.0752 53.0535 35.151C52.7808 35.2267 52.5914 35.3706 52.4854 35.5827C52.3945 35.7948 52.349 36.1281 52.349 36.5826V41.1958H55.3487C56.0456 41.1958 56.5304 41.0822 56.8031 40.8549C57.0758 40.6125 57.2122 40.2035 57.2122 39.6278C57.2122 39.5975 57.2576 39.5823 57.3485 39.5823C57.4394 39.5823 57.4849 39.5975 57.4849 39.6278L57.4621 41.423C57.4621 41.8624 57.4697 42.1881 57.4849 42.4002L57.5076 43.4683C57.5076 43.4986 57.4621 43.5137 57.3712 43.5137C57.2803 43.5137 57.2349 43.4986 57.2349 43.4683C57.2349 42.7865 57.091 42.3093 56.8031 42.0366C56.5153 41.7639 56.0077 41.6276 55.2805 41.6276H52.349V46.877C52.349 47.3164 52.3945 47.6421 52.4854 47.8542C52.5914 48.0512 52.7732 48.1875 53.0308 48.2633C53.3035 48.339 53.7352 48.3769 54.3261 48.3769H56.4168C57.0228 48.3769 57.5379 48.1118 57.9621 47.5815C58.4014 47.0513 58.6817 46.3544 58.8029 45.4908ZM62.0117 37.3553C62.0117 37.9613 62.1557 38.4839 62.4435 38.9233C62.7314 39.3626 63.0798 39.7338 63.4889 40.0368C63.9131 40.3247 64.4963 40.6883 65.2387 41.1276C66.0265 41.5973 66.6325 41.9912 67.0567 42.3093C67.496 42.6123 67.8672 43.0062 68.1702 43.491C68.4884 43.9758 68.6474 44.5591 68.6474 45.2408C68.6474 45.9529 68.4732 46.6043 68.1248 47.1952C67.7763 47.7709 67.2536 48.233 66.5567 48.5814C65.875 48.9147 65.0342 49.0814 64.0343 49.0814C63.504 49.0814 62.9965 49.0208 62.5117 48.8996C62.042 48.7935 61.5194 48.5966 60.9437 48.3087C60.8679 48.2633 60.8149 48.2102 60.7846 48.1496C60.7694 48.089 60.7543 47.9981 60.7391 47.8769L60.3983 44.9227V44.9C60.3983 44.8394 60.4361 44.8091 60.5119 44.8091C60.5876 44.7939 60.6331 44.8166 60.6482 44.8772C60.7997 45.9226 61.2012 46.8316 61.8527 47.6042C62.5041 48.3769 63.398 48.7632 64.5342 48.7632C65.3372 48.7632 66.0113 48.5435 66.5567 48.1042C67.1173 47.6648 67.3976 46.9755 67.3976 46.0362C67.3976 45.3545 67.2461 44.7712 66.9431 44.2864C66.6401 43.7864 66.2689 43.3774 65.8295 43.0592C65.4053 42.7259 64.8221 42.3396 64.0797 41.9003C63.3525 41.4761 62.7768 41.1049 62.3526 40.7867C61.9436 40.4686 61.5875 40.0747 61.2845 39.605C60.9967 39.1202 60.8528 38.5445 60.8528 37.8779C60.8528 37.1205 61.0421 36.4766 61.4209 35.9463C61.8148 35.4161 62.3223 35.0222 62.9435 34.7646C63.5646 34.4919 64.2312 34.3556 64.9433 34.3556C65.7765 34.3556 66.6401 34.5374 67.5339 34.901C67.7612 34.9919 67.8748 35.1207 67.8748 35.2873L68.0793 37.6962C68.0793 37.7568 68.0339 37.7871 67.943 37.7871C67.8672 37.7871 67.8218 37.7568 67.8066 37.6962C67.746 36.9084 67.4506 36.2039 66.9203 35.5827C66.3901 34.9616 65.6326 34.651 64.6478 34.651C63.7388 34.651 63.0722 34.9161 62.648 35.4464C62.2238 35.9766 62.0117 36.6129 62.0117 37.3553ZM72.6323 34.9919C71.6778 34.9919 70.9809 35.2191 70.5416 35.6736C70.1022 36.1281 69.8068 36.9387 69.6553 38.1052C69.6553 38.1355 69.6099 38.1506 69.519 38.1506C69.4281 38.1506 69.3826 38.1355 69.3826 38.1052C69.4432 37.6962 69.5114 37.0447 69.5871 36.1509C69.6629 35.2419 69.7008 34.5601 69.7008 34.1056C69.7008 34.0299 69.7462 33.992 69.8371 33.992C69.928 33.992 69.9735 34.0299 69.9735 34.1056C69.9735 34.4389 70.3749 34.6056 71.1779 34.6056C72.4808 34.651 74.0034 34.6737 75.7456 34.6737C76.6395 34.6737 77.5863 34.6586 78.5862 34.6283L80.1315 34.6056C80.6769 34.6056 81.0784 34.5677 81.3359 34.4919C81.5935 34.4162 81.7601 34.2647 81.8359 34.0374C81.851 33.9768 81.8965 33.9465 81.9722 33.9465C82.048 33.9465 82.0859 33.9768 82.0859 34.0374C82.0404 34.4616 81.995 35.1131 81.9495 35.9918C81.9041 36.8553 81.8813 37.5598 81.8813 38.1052C81.8813 38.1355 81.8359 38.1506 81.745 38.1506C81.6541 38.1506 81.6086 38.1355 81.6086 38.1052C81.6086 37.3023 81.5253 36.6811 81.3587 36.2418C81.192 35.8024 80.9117 35.4843 80.5178 35.2873C80.124 35.0904 79.571 34.9919 78.8589 34.9919C78.0711 34.9919 77.5182 35.0222 77.2 35.0828C76.8819 35.1282 76.6622 35.2494 76.541 35.4464C76.4349 35.6433 76.3819 35.9918 76.3819 36.4917V46.9679C76.3819 47.4376 76.4349 47.7785 76.541 47.9906C76.647 48.2027 76.8591 48.3466 77.1773 48.4223C77.4954 48.4981 77.9954 48.536 78.6771 48.536C78.7074 48.536 78.7226 48.5814 78.7226 48.6723C78.7226 48.7632 78.7074 48.8087 78.6771 48.8087C78.1772 48.8087 77.7833 48.8011 77.4954 48.7859L75.7456 48.7632L74.0867 48.7859C73.7837 48.8011 73.3671 48.8087 72.8368 48.8087C72.8065 48.8087 72.7914 48.7632 72.7914 48.6723C72.7914 48.5814 72.8065 48.536 72.8368 48.536C73.5186 48.536 74.0185 48.4981 74.3367 48.4223C74.6548 48.3466 74.8669 48.2027 74.973 47.9906C75.0942 47.7633 75.1548 47.4224 75.1548 46.9679V36.4463C75.1548 35.9463 75.0942 35.6055 74.973 35.4237C74.8518 35.2267 74.6321 35.1055 74.3139 35.0601C74.0109 35.0146 73.4504 34.9919 72.6323 34.9919Z" fill="#000"/>
+                                <path d="M34.5852 66.3182C34.6307 66.3182 34.6534 66.3636 34.6534 66.4545C34.6534 66.5454 34.6307 66.5909 34.5852 66.5909H31.9491C31.5704 66.5909 30.8356 65.9622 29.7448 64.7047C28.6692 63.4321 27.3814 61.6899 25.8816 59.478C25.3513 59.584 24.8741 59.637 24.4499 59.637C24.3893 59.637 24.0636 59.6143 23.4727 59.5689V64.7502C23.4727 65.2198 23.5182 65.5607 23.6091 65.7728C23.7151 65.9849 23.9045 66.1288 24.1772 66.2046C24.4499 66.2803 24.8892 66.3182 25.4952 66.3182C25.5407 66.3182 25.5634 66.3636 25.5634 66.4545C25.5634 66.5454 25.5407 66.5909 25.4952 66.5909C25.0407 66.5909 24.6771 66.5833 24.4044 66.5682L22.8591 66.5454L21.3593 66.5682C21.0866 66.5833 20.7078 66.5909 20.223 66.5909C20.1927 66.5909 20.1776 66.5454 20.1776 66.4545C20.1776 66.3636 20.1927 66.3182 20.223 66.3182C20.829 66.3182 21.2684 66.2803 21.5411 66.2046C21.8289 66.1288 22.0259 65.9849 22.1319 65.7728C22.238 65.5455 22.291 65.2047 22.291 64.7502V54.2285C22.291 53.774 22.238 53.4407 22.1319 53.2286C22.041 53.0165 21.8517 52.8726 21.5638 52.7968C21.2911 52.7059 20.8593 52.6605 20.2685 52.6605C20.223 52.6605 20.2003 52.615 20.2003 52.5241C20.2003 52.4332 20.223 52.3878 20.2685 52.3878L21.3593 52.4105C21.9653 52.4408 22.4652 52.456 22.8591 52.456C23.1924 52.456 23.503 52.4484 23.7909 52.4332C24.0939 52.4181 24.3514 52.4029 24.5635 52.3878C25.1089 52.3423 25.5937 52.3196 26.0179 52.3196C27.1542 52.3196 28.0329 52.5999 28.654 53.1604C29.2903 53.7058 29.6085 54.433 29.6085 55.342C29.6085 56.145 29.3661 56.8797 28.8813 57.5463C28.3965 58.1978 27.7526 58.7129 26.9496 59.0916C28.2525 60.9399 29.3433 62.3792 30.222 63.4094C31.1007 64.4396 31.8809 65.1819 32.5627 65.6364C33.2444 66.0909 33.9186 66.3182 34.5852 66.3182ZM23.4727 59.0462C23.8969 59.0916 24.3514 59.1144 24.8362 59.1144C26.0937 59.1144 26.9875 58.8568 27.5178 58.3417C28.0632 57.8115 28.3359 57.0161 28.3359 55.9556C28.3359 54.7891 28.048 53.9407 27.4723 53.4104C26.9118 52.8802 26.0937 52.615 25.018 52.615C24.4423 52.615 24.0408 52.7211 23.8136 52.9332C23.5863 53.1453 23.4727 53.5922 23.4727 54.274V59.0462ZM40.2691 66.8636C38.8602 66.8636 37.6027 66.5379 36.4968 65.8864C35.406 65.2198 34.5576 64.326 33.9516 63.2049C33.3607 62.0686 33.0653 60.8339 33.0653 59.5007C33.0653 57.9402 33.4592 56.607 34.247 55.5011C35.0348 54.38 36.0423 53.5392 37.2694 52.9786C38.5117 52.4181 39.7767 52.1378 41.0645 52.1378C42.5037 52.1378 43.7688 52.4787 44.8596 53.1604C45.9504 53.827 46.7836 54.7133 47.3593 55.8193C47.9502 56.9252 48.2456 58.0993 48.2456 59.3416C48.2456 60.7203 47.882 61.9853 47.1548 63.1367C46.4276 64.2881 45.4504 65.1971 44.2233 65.8637C43.0113 66.5303 41.6932 66.8636 40.2691 66.8636ZM41.0872 66.4091C42.1629 66.4091 43.1325 66.1591 43.996 65.6592C44.8596 65.1592 45.5413 64.4244 46.0413 63.4548C46.5412 62.4852 46.7912 61.3263 46.7912 59.9779C46.7912 58.5538 46.5109 57.2888 45.9504 56.1829C45.405 55.0618 44.6247 54.1906 43.6097 53.5695C42.6098 52.9483 41.4432 52.6378 40.11 52.6378C38.3526 52.6378 36.9816 53.1832 35.9968 54.274C35.0121 55.3648 34.5197 56.8494 34.5197 58.728C34.5197 60.137 34.7924 61.4323 35.3378 62.614C35.8984 63.7806 36.6786 64.7047 37.6785 65.3865C38.6784 66.0682 39.8146 66.4091 41.0872 66.4091ZM56.3044 66.8636C54.8955 66.8636 53.638 66.5379 52.5321 65.8864C51.4413 65.2198 50.5929 64.326 49.9869 63.2049C49.396 62.0686 49.1006 60.8339 49.1006 59.5007C49.1006 57.9402 49.4945 56.607 50.2823 55.5011C51.0701 54.38 52.0776 53.5392 53.3047 52.9786C54.547 52.4181 55.812 52.1378 57.0998 52.1378C58.539 52.1378 59.8041 52.4787 60.8949 53.1604C61.9857 53.827 62.8189 54.7133 63.3946 55.8193C63.9854 56.9252 64.2809 58.0993 64.2809 59.3416C64.2809 60.7203 63.9173 61.9853 63.1901 63.1367C62.4629 64.2881 61.4857 65.1971 60.2586 65.8637C59.0466 66.5303 57.7285 66.8636 56.3044 66.8636ZM57.1225 66.4091C58.1982 66.4091 59.1678 66.1591 60.0313 65.6592C60.8949 65.1592 61.5766 64.4244 62.0766 63.4548C62.5765 62.4852 62.8265 61.3263 62.8265 59.9779C62.8265 58.5538 62.5462 57.2888 61.9857 56.1829C61.4403 55.0618 60.66 54.1906 59.645 53.5695C58.6451 52.9483 57.4785 52.6378 56.1453 52.6378C54.3879 52.6378 53.0169 53.1832 52.0321 54.274C51.0474 55.3648 50.555 56.8494 50.555 58.728C50.555 60.137 50.8277 61.4323 51.3731 62.614C51.9336 63.7806 52.7139 64.7047 53.7138 65.3865C54.7137 66.0682 55.8499 66.4091 57.1225 66.4091ZM82.3614 66.3182C82.4069 66.3182 82.4296 66.3636 82.4296 66.4545C82.4296 66.5454 82.4069 66.5909 82.3614 66.5909C81.8918 66.5909 81.5206 66.5833 81.2479 66.5682L79.7253 66.5454L78.3164 66.5682C78.0891 66.5833 77.771 66.5909 77.3619 66.5909C77.3316 66.5909 77.3165 66.5454 77.3165 66.4545C77.3165 66.3636 77.3316 66.3182 77.3619 66.3182C77.8922 66.3182 78.2785 66.2803 78.5209 66.2046C78.7784 66.1137 78.9451 65.9622 79.0208 65.7501C79.1117 65.538 79.142 65.2047 79.1117 64.7502L78.7254 54.1831L73.4078 66.4318C73.3775 66.4924 73.3169 66.5227 73.226 66.5227C73.1502 66.5227 73.0821 66.4924 73.0215 66.4318L67.4766 54.274L67.4538 54.2285L67.272 64.2275C67.2569 65.0153 67.3857 65.5607 67.6584 65.8637C67.9311 66.1667 68.4386 66.3182 69.1809 66.3182C69.2112 66.3182 69.2264 66.3636 69.2264 66.4545C69.2264 66.5454 69.2112 66.5909 69.1809 66.5909C68.7567 66.5909 68.431 66.5833 68.2038 66.5682L66.9766 66.5454L65.8631 66.5682C65.6661 66.5833 65.3707 66.5909 64.9768 66.5909C64.9465 66.5909 64.9314 66.5454 64.9314 66.4545C64.9314 66.3636 64.9465 66.3182 64.9768 66.3182C65.6131 66.3182 66.06 66.1667 66.3176 65.8637C66.5903 65.5455 66.7342 65.0001 66.7494 64.2275L66.9766 53.4559C66.507 52.9256 65.8934 52.6605 65.1359 52.6605C65.1056 52.6605 65.0905 52.615 65.0905 52.5241C65.0905 52.4332 65.1056 52.3878 65.1359 52.3878L65.9085 52.4105C66.06 52.4257 66.257 52.4332 66.4994 52.4332C66.7418 52.4332 66.9463 52.4257 67.113 52.4105C67.2796 52.3954 67.4084 52.3878 67.4993 52.3878C67.7114 52.3878 67.878 52.4635 67.9992 52.615C68.1204 52.7514 68.3022 53.0695 68.5446 53.5695L73.6578 64.6138L78.7481 52.9559C78.8239 52.7893 78.9224 52.6529 79.0436 52.5469C79.1799 52.4408 79.3087 52.3878 79.4299 52.3878C79.4905 52.3878 79.589 52.3954 79.7253 52.4105C79.8617 52.4257 80.051 52.4332 80.2934 52.4332L81.3161 52.4105C81.4676 52.3954 81.7024 52.3878 82.0205 52.3878C82.0508 52.3878 82.066 52.4332 82.066 52.5241C82.066 52.615 82.0508 52.6605 82.0205 52.6605C81.2327 52.6605 80.6722 52.7665 80.3389 52.9786C80.0207 53.1756 79.8692 53.5771 79.8844 54.1831L80.3162 64.7502C80.3313 65.2198 80.3843 65.5607 80.4752 65.7728C80.5813 65.9849 80.7707 66.1288 81.0434 66.2046C81.3312 66.2803 81.7706 66.3182 82.3614 66.3182Z" fill="#000"/>
+                            </svg>
                         </a>
                     </div>
-                    <div class="footer__col">
-                        <ul>
-                            <a href="#">
-                                Каталог
-                            </a>
-                            <li>
-                                <a href="#">Осень</a>
-                            </li>
-                            <li>
-                                <a href="#">New</a>
-                            </li>
-                            <li>
-                                <a href="#">Все букеты</a>
-                            </li>
-                            <li>
-                                <a href="#">Авторские</a>
-                            </li>
-                            <li>
-                                <a href="#">Монобукеты</a>
-                            </li>
-                            <li>
-                                <a href="#">Букеты из роз</a>
-                            </li>
-                            <li>
-                                <a href="#">Коробочки и Ящики</a>
-                            </li>
-                            <li>
-                                <a href="#">Корзины</a>
-                            </li>
-                            <li>
-                                <a href="#">Поштучно</a>
-                            </li>
-                            <li>
-                                <a href="#">Подарки</a>
-                            </li>
-                        </ul>
+                    
+                    <div class="footer__action">
+                        <button class="trans-btn call-popup" data-popup=".popup1">Бесплатная консультация</button>
                     </div>
-                    <div class="footer__col">
+                    <div class="for-social">
+
+                    </div>
+                    <nav class="footer-nav">
                         <ul>
-                            <p>
-                                Компания
-                            </p>
+                            <li>
+                                <a href="#">
+                                    Как мы делаем меблировку
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Преимущества
+                                </a>
+                            </li>
                             <li>
                                 <a href="#">
                                     О нас
                                 </a>
                             </li>
-                        </ul>
-                    </div>
-                    <div class="footer__col">
-                        <ul>
-                            <p>
-                                Покупателю
-                            </p>
                             <li>
                                 <a href="#">
-                                    Оплата
+                                    Отзывы
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Доставка
+                                    Контакты
                                 </a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="footer__col">
-                        <ul>
-                            <p>
-                                Контакты
-                            </p>
-                            <li>
-                                <a href="tel:+7(927)111-22-33">
-                                    +7(927)111-22-33
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:89271112233@yandex.ru">
-                                    89271112233@yandex.ru
-                                </a>
-                            </li>
-                            
-                            <li>
-                              <span>
-                                г.Воронеж
-                              </span>
-                            </li>
-                            <button class="blue-btn">
-                                Связаться с нами
-                            </button>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__bottom">
-                <div class="container">
-                    <p>© Цветочная Мастерская. Все права защищены 2022</p>
-                    <p>Информация на сайте не является публичной офертойs</p>
+                    </nav>
+                   
                 </div>
             </div>
         </footer>
+        <div class="popup">
+            <div class="popup__body">
+                <div class="popup__item popup1">
+                    <h5>
+                        Отправить заявку сейчас
+                    </h5>
+                    <p>
+                        Отправьте заявку и наш менеджер свяжется с вами в ближайшее время
+                    </p>
+                    <form action="#">
+                        <input placeholder="Ваше имя" type="text">
+                        <input placeholder="Ваш телефон" type="tel">
+                        <button class="main-btn">Отправить</button>
+                        <span class="copy-text">
+                            Нажимая кнопку ‘Отправить’ вы соглашаетесь с политикой конфиденциальности
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="assets/libs/swiper-bundle.min.js"></script>
     <script src="scripts/app.js"></script>
 </body>
